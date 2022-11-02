@@ -1,0 +1,50 @@
+{
+  "name": "ajs-classes-inheritance",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve --mode development",
+    "build": "webpack --mode production",
+    "lint": "eslint .",
+    "test": "jest",
+    "coverage": "jest --coverage",
+    "preshow:coverage": "npm run coverage",
+    "show:coverage": "live-server coverage/lcov-report",
+    "preshow:dist": "npm run build",
+    "show:dist": "live-server dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlenEvtikhov/ajs-classes-inheritance.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlenEvtikhov/ajs-classes-inheritance/issues"
+  },
+  "homepage": "https://github.com/AlenEvtikhov/ajs-classes-inheritance#readme",
+  "description": "",
+  "devDependencies": {
+    "@babel/preset-env": "^7.19.4",
+    "jest-environment-jsdom": "^29.2.2",
+    "mini-css-extract-plugin": "^2.6.1",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.11.1"
+  },
+  "dependencies": {
+    "@babel/cli": "^7.19.3",
+    "@babel/core": "^7.19.6",
+    "babel-jest": "^29.2.2",
+    "babel-loader": "^9.0.0",
+    "core-js": "^3.26.0",
+    "css-loader": "^6.7.1",
+    "eslint": "^8.26.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "html-loader": "^4.2.0",
+    "html-webpack-plugin": "^5.5.0",
+    "jest": "^29.2.2",
+    "live-server": "^1.2.2"
+  }
+}
